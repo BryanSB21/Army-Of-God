@@ -17,7 +17,7 @@
         <a href="<?php echo site_url('artikel') ?>" class="btn btn-default">Cancel</a>
         <div class="container">
             
-    	    <h2><?php echo $Judul; ?></h2>
+            <h2><?php echo $Judul; ?></h2>
             <p>Tanggal : <?php echo $Tanggal; ?></p>
             <div><?php echo $Isi; ?></div>
             
