@@ -7,7 +7,7 @@
 
 
       <ul class="nav navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="landing">Join Us<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">

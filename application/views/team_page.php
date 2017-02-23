@@ -1,4 +1,3 @@
-<link href="assets/css/style2.css" rel="stylesheet">
 
 <div class="container marketing">
 
@@ -13,7 +12,7 @@
             <button type="button" class="btn btn-danger"><i class="fa fa-google" style="font-size:50px"></i></button>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" src="assets/img/01.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/01.jpg">
         </div>
       </div>
 
@@ -30,7 +29,7 @@
             <button type="button" class="btn btn-danger"><i class="fa fa-google" style="font-size:50px"></i></button>
         </div>
         <div class="col-md-5 pull-md-7">
-          <img class="featurette-image img-fluid mx-auto" src="assets/img/02.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/02.jpg">
         </div>
       </div>
 
@@ -47,7 +46,7 @@
             <button type="button" class="btn btn-danger"><i class="fa fa-google" style="font-size:50px"></i></button>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" src="assets/img/03.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/03.jpg" >
         </div>
       </div>
 

@@ -1,3 +1,6 @@
+<?php
+    if( !isset( $_SESSION['username'] ) ) redirect('login');
+?>
 <!doctype html>
 <html>
     <head>

@@ -11,6 +11,7 @@ class Infojadwal extends CI_Controller {
 
 	public function index()
 	{
+		$data['page'] = "infojadwal";
 		$data['jadwal'] = $this->m_data->tampil_data()->result();
 
 		$this->load->view('templates/header2');

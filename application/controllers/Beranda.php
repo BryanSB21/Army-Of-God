@@ -36,6 +36,7 @@ class Beranda extends CI_Controller {
             'total_rows' => $config['total_rows'],
             'start' => $start,
         );
+        $data['page'] = "beranda";
         $this->load->view('templates/header2');
         $this->load->view('templates/navh');
         $this->load->view('home_page', $data);
