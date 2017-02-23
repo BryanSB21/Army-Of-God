@@ -1,6 +1,6 @@
 /* my style */
 .business-header .container .tap{
-  padding-top: 120px;
+  padding-top: 110px;
 }
 
 .business-header .container h1{
@@ -19,7 +19,9 @@
 html,
 body {
   height: 100%;
-  background-color:#99ccff;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: 0 -10px;
 }
 
 body {
@@ -59,16 +61,6 @@ span.psw {
 span.psw a{
   display: inline-block;
   color: #333;
-}
-
-
-
-.foot{
-  background-color: #5facdd;
-}
-
-.foot footer{
-  margin-top: 89px;
 }
 
 .cek{

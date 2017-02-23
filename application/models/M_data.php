@@ -25,5 +25,4 @@ class M_data extends CI_Model{
     public function tampil_data_atk(){
         return $this->db->get('artikel');
     }
-
 } 

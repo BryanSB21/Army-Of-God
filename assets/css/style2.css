@@ -309,3 +309,49 @@ section h3.section-subheading {
     line-height: 1.4;
   }
 }
+
+.blog-header {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #0059b3;
+  background: -moz-linear-gradient(53deg, #BAD5FF 0%, #5AAADB 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #BAD5FF), color-stop(100%, #5AAADB)); /* safari4+,chrome */
+  background: -webkit-linear-gradient(53deg, #BAD5FF 0%, #5AAADB 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(53deg, #BAD5FF 0%, #5AAADB 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(53deg, #BAD5FF 0%, #5AAADB 100%); /* ie10+ */
+  background: linear-gradient(37deg, #BAD5FF 0%, #5AAADB 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5AAADB', endColorstr='#BAD5FF',GradientType=0 ); /* ie6-9 */}
+
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.sidebar-module {
+  padding: 1rem;
+  /*margin: 0 -1rem 1rem;*/
+}
+.sidebar-module-inset {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: .25rem;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}

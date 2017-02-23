@@ -1,5 +1,3 @@
- <link href="assets/css/style2.css" rel="stylesheet">
- 
  <header>
 
     <div class="jumbotron">

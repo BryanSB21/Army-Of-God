@@ -2,10 +2,6 @@
     if( !isset( $_SESSION['username'] ) ) redirect('signin');
 ?>
 
-
- <link href="assets/css/style2.css" rel="stylesheet">
- <link href="assets/css/clean-blog.css" rel="stylesheet">
-
  <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -36,28 +32,45 @@
       </a>
     </div><!-- /.carousel -->
 
+<div class="blog-header">
+      <div class="container">
+        <h1 class="blog-title">Artikel dan Renungan</h1>
+        <p class="lead blog-description">Mari kita membaca lebih sering</p>
+      </div>
+</div>
 
 <div class="container">
-      <?php 
-        foreach($list as $u){ 
-        ?>
-        <div class="post-preview">
-            <a href="#">
-                <h2 class="post-title">
-                    <?php echo $u->Judul ?>
-                </h2>
-            </a>
-            <p class="post-meta">Posted on <?php echo $u->Tanggal ?></p>
-        </div>
-        <hr>
-        <?php } ?>
-        <!-- Pager -->
-        <ul class="pager">
-            <li class="next">
-                <a href="#">Older Posts &rarr;</a>
-            </li>
-        </ul>
+
+<?php
+            foreach ($artikel_data as $artikel)
+            {
+                ?>
+<div class="card card-outline-primary">
+  <div class="card-block">
+    <h4 class="card-title"><?php echo $artikel->Judul ?></h4>
+    <h6 class="card-subtitle mb-2 text-muted">Post on <?php echo $artikel->Tanggal ?></h6>
+    <p class="card-text">
+    <?=substr(strip_tags($artikel->Isi),0,200)?>...
+    </p>
+    <a href="#" class="card-link">
+    <?php 
+        echo anchor(site_url('beranda/read/'.$artikel->id_news),'readmore..', 'class="btn btn-primary"'); 
+        ?></a>
+
+  </div>
+</div>
+
+ <?php
+            }
+            ?>
+<div class="col-md-6 text-right">
+                <?php echo $pagination ?>
+            </div>
+            
 </div>
 
 <hr>
+
+
+
 

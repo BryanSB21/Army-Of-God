@@ -13,7 +13,7 @@ class Infojadwal extends CI_Controller {
 	{
 		$data['jadwal'] = $this->m_data->tampil_data()->result();
 
-		$this->load->view('templates/header');
+		$this->load->view('templates/header2');
 		$this->load->view('templates/navh');
 
 		$this->load->view('Infojadwal_user',$data);
