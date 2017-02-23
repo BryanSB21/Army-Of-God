@@ -1,6 +1,6 @@
 <link href="assets/css/login.css" rel="stylesheet">
 
-<button type="button" class="btn btn-link"><a href="signin">Back</a></button>
+<a href="signin"><i class="fa fa-close" style="font-size:48px; padding: 10px;"></i></a>
 
 <div class="container" style="padding-top: 145px;">
 

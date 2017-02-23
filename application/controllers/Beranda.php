@@ -16,6 +16,7 @@ class Beranda extends CI_Controller {
 
 		$this->load->view('home_page',$data);
 
+		$this->load->view('templates/chat');
 		$this->load->view('templates/footer');
 		
 	}

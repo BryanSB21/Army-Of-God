@@ -19,7 +19,7 @@
             
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/natal.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -27,14 +27,14 @@
 
       <div class="row featurette cek">
         <div class="col-md-7 push-md-5">
-          <h2 class="featurette-heading">PASKAH<br>
+          <h2 class="featurette-heading">IBDAH BERSAMA ARMED<br>
           <p class="lead"><br>
             "Sama seperti Natal, acara ini jjuga tiap tahun diselenggarakan, tepatnya pertengahan april. Acara ini juga sering diambil bagian oleh KMKK."</p>
 
             
         </div>
         <div class="col-md-5 pull-md-7">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/armed.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -49,7 +49,7 @@
            
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="assets/img/ibd.jpg" alt="Generic placeholder image">
         </div>
       </div>
 

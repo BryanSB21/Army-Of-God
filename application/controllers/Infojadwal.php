@@ -18,6 +18,8 @@ class Infojadwal extends CI_Controller {
 
 		$this->load->view('Infojadwal_user',$data);
 
+
+		$this->load->view('templates/chat');
 		$this->load->view('templates/footer');
 	}
 }

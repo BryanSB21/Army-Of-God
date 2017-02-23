@@ -19,15 +19,13 @@
               
               <div class="dropdown show float-xs-right">
                 <a class="dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 <img src="assets/img/userman.png" width="30" height="30" alt="">
+                 <i class="fa fa-user-circle" style="font-size:24px"></i>
                 </a>
 
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
                   <a class="dropdown-item" href="#">Profil</a>
-                  <div class="dropdown-divider"></div>
-                 <a class="dropdown-item" href="#">Visi & Misi</a>
-                 <a class="dropdown-item" href="#">Kegiatan</a>
-                 <div class="dropdown-divider"></div>
+                  <!--<div class="dropdown-divider"></div>
+                 <div class="dropdown-divider"></div>-->
                  <a class="dropdown-item" href="<?= base_url('beranda/logout')?>">Sign out</a>
                 </div>
             </div>
