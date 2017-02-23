@@ -34,7 +34,7 @@
         </div>
 </div>
 
- <div class="container">
+  <div class="container">
         <div class="col-lg-12">
     <!-- begin wwww.htmlcommentbox.com -->
             <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...
