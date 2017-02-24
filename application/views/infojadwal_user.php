@@ -3,38 +3,42 @@
 ?>
 
 <br>
-<div class="container cek">
-  		<h2>Jadwal Kegiatan ALL4JC Tahun 2017</h2>
-          <div class="table-responsive">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>Hari/Tanggal</th>
-                  <th>Acara</th>
-                  <th>Tempat</th>
-                  <th>Pelayan</th>
-                  <th>Waktu</th>
-                </tr>
-              </thead>
-             
-              <tbody>
-                <?php 
-                foreach($jadwal as $u){ 
+<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
+<div class="container">
+        <h2 style="margin-top:0px">Jadwal List</h2>
+
+        <table class="table table-striped" style="margin-bottom: 10px">
+            <tr>
+                
+    <th>Haritanggal</th>
+    <th>Acara</th>
+    <th>Tempat</th>
+    <th>Pelayan</th>
+    <th>Jam</th>
+            </tr><?php
+            foreach ($jadwal_data as $jadwal)
+            {
                 ?>
                 <tr>
-                  <td><?php echo $u->haritanggal ?></td>
-                  <td><?php echo $u->acara ?></td>
-                  <td><?php echo $u->tampat ?></td>
-                  <td><?php echo $u->pelayan ?></td>
-                  <td><?php echo $u->jam ?></td>
-                </tr>
-                <?php } ?>
-              </tbody>
-            </table>
+      <td><?php echo $jadwal->haritanggal ?></td>
+      <td><?php echo $jadwal->acara ?></td>
+      <td><?php echo $jadwal->tampat ?></td>
+      <td><?php echo $jadwal->pelayan ?></td>
+      <td><?php echo $jadwal->jam ?></td>
+    </tr>
+                <?php
+            }
+            ?>
+        </table>
+        <div class="row">
+            <div class="col-md-6 text-right">
+                <?php echo $pagination ?>
+            </div>
         </div>
 </div>
 
-  <div class="container">
+ <div class="container">
         <div class="col-lg-12">
     <!-- begin wwww.htmlcommentbox.com -->
             <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...
