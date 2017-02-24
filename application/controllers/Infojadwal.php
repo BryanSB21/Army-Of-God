@@ -24,7 +24,7 @@ class Infojadwal extends CI_Controller {
             'pagination' => $this->pagination->create_links(),
         );
 
-        $this->load->view('templates/header');
+        $this->load->view('templates/header2');
         $this->load->view('templates/navh');
         $this->load->view('infojadwal_user', $data);
         $this->load->view('templates/chat');
